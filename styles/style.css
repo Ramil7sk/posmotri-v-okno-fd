@@ -54,6 +54,18 @@ ol {
   background-color: #D9D9D9;
 }
 
+button {
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
 .content {
   display: flex;
   gap: 30px;
