@@ -81,14 +81,14 @@ label {
 }
 
 .content__list-container {
-  overflow: auto;
-  overflow-x: hidden;
   position: relative;
-  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   gap: 30px;
   height: 298px;
+  margin-bottom: 10px;
+  overflow: auto;
+  overflow-x: hidden;
 }
 
 .content__details {
@@ -158,10 +158,10 @@ label {
 }
 
 .search-form__fieldset-title {
+ margin-bottom: 2px;
  font-weight: 400;
  font-size: 18px;
  line-height: 130%;
- margin-bottom: 2px;
 }
 
 .title {
@@ -178,21 +178,21 @@ label {
 }
 
 .content__video-card-title {
-  font-family: 'Oswald', sans-serif;
+  margin: 5px 0 5px;
   overflow: hidden;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
+  line-height: 100%;
   text-transform: uppercase;
   text-overflow: ellipsis;
-  line-height: 100%;
-  margin: 5px 0 5px;
 }
 
 .content__video-card-description {
-  font-size: 18px;
-  line-height: 16.2px;
   display: -webkit-box; 
   overflow: hidden;
+  font-size: 18px;
+  line-height: 16.2px;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -227,14 +227,14 @@ label {
 }
 
 .search-form__textfield {
-  font-size: 18px;
+  min-width: 225px;
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   color: #fff;
+  font-size: 18px;
   background-color: transparent;
   appearance: none;
-  min-width: 225px;
 }
 
 .content__card-link_current {
@@ -284,17 +284,17 @@ label {
 }
 
 .button {
-  font-family: 'Fira Sans Condensed', sans-serif;
   border: 1px solid #FFFFFF;
   padding: 6px 0;
   color: #FFFFFF;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   background-color: transparent;
 }
 
 .search-form {
-  margin-left: 33px;
   margin-bottom: 10px;
+  margin-left: 33px;
 }
 
 .search-form__submit-button {
