@@ -128,7 +128,7 @@ label {
   background-color: #545050;
 }
 
-.content__list-item:hover .content__card-link {
+.content__card-link:hover {
   color: #fff;
   text-decoration: underline;
 }
@@ -294,8 +294,6 @@ label {
   padding: 6px 0;
   color: #FFFFFF;
   font-family: 'Fira Sans Condensed', sans-serif;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-weight: 700;
   font-weight: 700;
   font-size: 18px;
   background-color: transparent;
